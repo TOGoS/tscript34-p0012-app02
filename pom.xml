@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.nuke24.tscript34.p0012</groupId>
 	<artifactId>tscript34-p0012-app02</artifactId>
-	<version>0.0.4.1</version>
+	<version>0.0.6</version>
 	<packaging>jar</packaging>
 	<name>TScript34-P0012-App02</name>
 	
@@ -32,4 +32,17 @@
 			<version>0.0.6</version>
 		</dependency>
 	</dependencies>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>3.1.0</version>
+				<configuration>
+					<mainClass>net.nuke24.tscript34.p0012.app02.App02</mainClass>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
