@@ -41,3 +41,7 @@ with a personal access token, which you can generate at https://github.com/setti
 	</servers>
 </settings>
 ```
+
+## Running the application
+
+Try `mvn exec:java`.
