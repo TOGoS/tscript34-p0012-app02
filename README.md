@@ -42,6 +42,11 @@ with a personal access token, which you can generate at https://github.com/setti
 </settings>
 ```
 
+If that still doesn't work, try downloading the .jar
+and other files from GitHub into
+`~/.m2/repository/net/nuke24/tscript34/p0012/tscript34-p0012-lib01/0.0.6`
+(or whatever; adjust package name and version as appropriate).
+
 ## Running the application
 
-Try `mvn exec:java`.
+Try `mvn compile exec:java`.
