@@ -1,3 +1,18 @@
+# TScript34-P0012-App02
+
+The purpose of this project, along with [Lib01](https://github.com/TOGoS/tscript34-p0012-lib01/),
+is to demonstrate publishing and importing a package using Maven
+in the simplest way possible while still maintaining control over
+the package name and version number (so JitPack is a no-go).
+
+I found that it can be done by letting GitHub build and
+serve your packages, but even this requires some putzing
+about with GitHub-specific configuration files,
+and packages won't be public.
+
+The whole Maven package-publishing scene is disappointingly complex to deal with.
+
+
 ## Accessing the GitHub package repo
 
 You'll need to add something like the folllwing to `~/.m2/settings.xml`,
